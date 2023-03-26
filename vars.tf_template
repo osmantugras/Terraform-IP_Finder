@@ -1,0 +1,30 @@
+variable "ssh_key" {
+  default = “<Cloud Init ssh key>”
+}
+variable "ip_address" {
+  default = “IPAD”
+}
+variable "name_vm" {
+  default = “K3sJenkins”
+}
+variable "proxmox_host" {
+  default = “<Node Name>”
+}
+variable "template_name" {
+  default = “<Cloud Init Template VM>”
+}
+variable "root_password" {
+  default = “<Cloud Init Password>”
+}
+variable “user_name” {
+  default = “<Cloud Init user name>”
+}
+variable "template_cores" {
+  default = "<CPU Cores>”
+}
+variable "template_sockets" {
+  default = “<CPU Sockets>”
+}
+variable "template_memory”{
+  default = “<Memory>”
+}
